@@ -1,17 +1,17 @@
 package goanimalsound
 
-func DogSound() string {
-	return "Barkk"
+func DogSound(name string) string {
+	return "Barkk" + name
 }
 
-func CatSound() string {
-	return "Meoww"
+func CatSound(name string) string {
+	return "Meoww" + name
 }
 
-func DuckSound() string {
-	return "Kwekk Kwekk"
+func DuckSound(name string) string {
+	return "Kwekk Kwekk" + name
 }
 
-func DragonSound() string {
-	return "Grrrrr brawrrr"
+func DragonSound(name string) string {
+	return "Grrrrr brawrrr" + name
 }
